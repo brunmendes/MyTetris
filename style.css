@@ -1,0 +1,138 @@
+/*O * estiliza todos os elementos do html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(black, purple);
+}
+
+.container{
+    padding: 12px;
+}
+
+.buttons-container{
+    margin-bottom: 16px;
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.buttons-container button{
+    border: none;
+    background: purple;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    height: 36px;
+
+    transition: filter 0.2s;
+}
+
+.buttons-container button:hover{
+    filter: brightness(0.8);
+}
+
+.content-container{
+    display: flex;
+}
+
+
+.grid{
+    width: 400px;
+    height: 565px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 40px;
+    height: 28.25px;
+    border-radius: 5px;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.grid, .mini-grid{
+    border-radius: 10px;
+    background: linear-gradient(purple, black);
+}
+
+.mini-grid{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-grid div{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.content-right h3{
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.shapePainted {
+    background: linear-gradient(rgb(189, 2, 2), red);
+    border: 5px inset rgb(241, 6, 6);
+}
+
+.blue{
+    background:linear-gradient(rgb(11, 11, 160), blue);
+    border: 5px inset rgb(6, 6, 241);
+}
+  
+.yellow{
+    background:linear-gradient(rgb(158, 158, 12), yellow);
+    border: 5px inset rgb(204, 204, 3);
+}
+  
+.orange{
+    background: linear-gradient(rgb(189, 57, 10), orangered);
+    border: 5px inset rgb(240, 69, 7);
+}
+
+.purple{
+    background: linear-gradient(purple, rgb(189, 27, 238));
+    border: 5px inset rgb(168, 26, 211);
+}
+
+.green{
+    background:linear-gradient(green, rgb(37, 192, 37));
+    border: 5px inset rgb(2, 190, 2);
+}
+
+.cian{
+    background: linear-gradient(rgb(48, 184, 184), aqua);
+    border: 5px inset rgb(39, 238, 238);
+}
+
+/*.red {
+    background: linear-gradient(to right, #ff3300, #ff5c33, #ff8566);
+    border: 5px inset rgb(241, 6, 6);
+}*/

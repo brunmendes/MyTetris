@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruna Mendes">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link class="icon" rel="icon" type="image/png" href="/image/tetris.png" >
+
+</head>
+<body>
+    
+    <div class="container">
+        <audio src="./audios/Original_Tetris_Soundtrack.mp3" autoplay loop></audio>
+        <div class="buttons-container">
+            <button id="start-button">Começar/Pausar</button>
+            <button id="restart-button">Recomeçar</button>
+        </div>
+
+        <div class="content-container">
+            <!--Aqui começa a grid principal do jogo-->
+            <div class="grid">
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="div-edit"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                <div class="filled"></div>
+                
+            </div>
+
+            <!--Aqui inicia o mini grid, onde aparecerá a próxima peça-->
+            <div class="content-right">
+                <div class="mini-grid">
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                    <div class="div-edit"></div>
+                </div>
+                <h3>
+                    Pontuação:
+                    <span class="score">0</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
